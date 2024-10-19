@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucifer's Host</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="particle-container"></div>
+
+    <div id="main-content">
+        <div>
+            <pre id="logo">
+ (                                    )              
+ )\ )           (           (      ( /(           )  
+(()/(  (     (  )\ )   (  ( )\     )\())       ( /(  
+ /(_))))\  ( )\(()/(  ))\ )((_|   ((_)\  (  (  )\()) 
+(_)) /((_) )((_)/(_))/((_|()\ )\   _((_) )\ )\(_))/  
+| | (_))( ((_|_|_) _(_))  ((_|(_) | || |((_|(_) |_   
+| |_| || / _|| ||  _/ -_)| '_(_-< | __ / _ (_-<  _|  
+|____\_,_\__||_||_| \___||_| /__/ |_||_\___/__/\__|  
+            </pre>
+
+            <div id="main-nav">
+                <a href="index.html" class="nav-link">Home</a>
+            </div>
+        </div>
+
+        <main role="main">
+            <h1>Request a Dox</h1>
+
+            <form id="request-form" action="mailto:y2k777@underworld.dog" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Your alias:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="reason">Target name, email / phone, Country, and year of birth.</label>
+                    <textarea id="reason" name="reason" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="qualifications">Details about target: (Please include as many details as possible)</label>
+                    <textarea id="qualifications" name="qualifications" required></textarea>
+                </div>
+
+                <button type="submit">Submit Request</button>
+            </form>
+        </main>
+    </div>
+
+</body>
+</html>

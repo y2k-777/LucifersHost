@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucifer's Host</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="particle-container"></div>
+
+    <div id="main-content">
+        <div>
+            <pre id="logo">
+ (                                    )              
+ )\ )           (           (      ( /(           )  
+(()/(  (     (  )\ )   (  ( )\     )\())       ( /(  
+ /(_))))\  ( )\(()/(  ))\ )((_|   ((_)\  (  (  )\()) 
+(_)) /((_) )((_)/(_))/((_|()\ )\   _((_) )\ )\(_))/  
+| | (_))( ((_|_|_) _(_))  ((_|(_) | || |((_|(_) |_   
+| |_| || / _|| ||  _/ -_)| '_(_-< | __ / _ (_-<  _|  
+|____\_,_\__||_||_| \___||_| /__/ |_||_\___/__/\__|  
+            </pre>
+
+            <nav id="main-nav">
+                <a href="index.html" class="nav-link">Home</a>
+            </nav>
+        </div>
+
+        <main role="main">
+            <section class="course-section">
+
+                <div class="lesson">
+                    <h2>How to stop pedos:</h2>
+                    <p>This is our small guide on avoiding predators online, stay safe and avoid getting sucked into the nightmare's they bring...<br></p>
+                    <h3>The 5 things to remember:</h3>
+                    <ul>
+                        <li>Don't be an idiot and trust everyone. Keep an eye on your kids, make sure they understand the dangers and educate them about the world's filth.</li> <br>
+                        <li>Online predators are a thing, so make sure your children know the basics of online safety. Block all the fucking social media accounts that look suspicious.</li> <br>
+                        <li>Avoid anyone who seems overly interested in children. These sick fucks often groom both children and parents, so be a judge of character for once.</li> <br>
+                        <li>Report any suspicious behavior to the authorities. Don't hesitate, because those pedos could be planning something way worse.</li> <br>
+                        <li>Don't be afraid to be rude and confrontational. Teach your kids to run away and scream their lungs out if anyone tries to grab them.</li> <br>
+                    </ul>
+
+
+                <div class="lesson">
+                    <h2>How to avoid retardism:</h2>
+                    <p>Anyone reading this, your here for a reason. Your either here because you enjoy what we do, or your the target of Lucifers Host... You may be thinking; how do I suck-less? Here is a quick guide for you.</p>
+                    <ul>
+                        <li>Keep your toxic opinions to yourself. We don't need to hear your backward thoughts on race, religion, or politics</li> <br>
+                        <li>Don't pretend to be something you're not. Everyone has insecurities, but some people online act like they're God's gift to the internet. Newsflash: You're not a hacktivist, a tech guru, or a professional shitposter. I don't claim to be anything, neither should you.</li> <br>
+                        <li>Learn how to debate properly. No one cares about your shitty arguments or how smart you think you are. Understand the art of discussion and when to concede a point.</li> <br>
+                        <li>Respect boundaries. Some people don't want to talk to you, and that's fine. Leave them alone and move on. Stalking people online is weird and creepy.</li> <br>
+                        <li>Understand the difference between constructive criticism and being a dick. You're not helping anyone by being overly negative or dismissive.</li> <br>
+                        <li>Refrain from trolling. It's not funny, it's not original, and it makes you look like a bitter loser.</li> <br>
+                    </ul>
+                    <div class="quiz">
+                        <h3>Question;</h3>
+                        <p>Why are you here?</p>
+                        <form id="quiz2">
+                            <label><input type="radio" name="q2" value="1"> Im Bored and don't know what to do.</label><br>
+                            <label><input type="radio" name="q2" value="2"> I got targetted and want to get my info removed.</label><br>
+                            <label><input type="radio" name="q2" value="3"> I like watching people suffer.</label><br>
+                            <label><input type="radio" name="q2" value="5"> I found this site by accident.</label><br>
+                            <button type="button" onclick="checkAnswer(2)">Check Answer</button>
+                        </form>
+                        <p id="result2"></p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        function checkAnswer(quizNumber) {
+            const form = document.getElementById(`quiz${quizNumber}`);
+            const result = document.getElementById(`result${quizNumber}`);
+            const selectedAnswer = form.querySelector('input[name^="q"]:checked');
+            
+            if (!selectedAnswer) {
+                result.textContent = "Please select an answer.";
+                return;
+            }
+            
+            const correctAnswers = {1: "2", 2: "3"};
+            const isCorrect = selectedAnswer.value === correctAnswers[quizNumber];
+            
+            result.textContent = isCorrect ? "Nice, so do we :)" : "You should leave, you don't belong here.";
+            result.style.color = isCorrect ? "#00ff00" : "#ff0000";
+        }
+    </script>
+</body>
+</html>

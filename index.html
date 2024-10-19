@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucifer's Host</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="particle-container"></div>
+
+    <div id="main-content">
+        <div id="top-nav">
+            <div id="search-container">
+                <input type="text" id="searchInput" placeholder="Search...">
+                <span id="search-icon">⫍‍⌕‍⫎</span>
+            </div>
+        </div>
+
+        <div>
+            <pre id="logo">
+ (                                    )              
+ )\ )           (           (      ( /(           )  
+(()/(  (     (  )\ )   (  ( )\     )\())       ( /(  
+ /(_))))\  ( )\(()/(  ))\ )((_|   ((_)\  (  (  )\()) 
+(_)) /((_) )((_)/(_))/((_|()\ )\   _((_) )\ )\(_))/  
+| | (_))( ((_|_|_) _(_))  ((_|(_) | || |((_|(_) |_   
+| |_| || / _|| ||  _/ -_)| '_(_-< | __ / _ (_-<  _|  
+|____\_,_\__||_||_| \___||_| /__/ |_||_\___/__/\__|  
+            </pre>
+
+            <nav id="main-nav">
+                <a href="learn.html" class="nav-link">Learn</a>
+                <a href="#" class="nav-link" onclick="showPopup('aboutPopup')">About</a>
+                <a href="request.html" class="nav-link">Request</a>
+            </nav>
+        </div>
+
+        <main role="main">
+            <div id="posts-section"></div>
+        </main>
+    </div>
+
+    <footer>
+        <a href="#" onclick="showPopup('requirementsPopup')">Requirements</a>
+                <span id="pageInfo">Page 1 of 1</span>
+        <a href="#" id="prevPage" onclick="changePage(-1)">Previous Page</a>
+        <a href="#" id="nextPage" onclick="changePage(1)">Next Page</a>
+    </footer>
+
+    <div id="aboutPopup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="hidePopup('aboutPopup')">&times;</span>
+            <h2>About</h2>
+            <p>We humiliate the ones who hide behind their screens
+         For anonymity, while they choose to commit
+         disgusting acts online to vulnerable people. Well, here you can find a nice collection of
+         such people...
+ <br>
+ <br>        
+    You can also request to upload a dox. (Anyone can do this) If you wish to, click on the "Request"
+    button and follow the instructions. Target's will need to include a proper reason, details about the target,
+    and information that has been gathered. Target's will be uploaded within 24hrs if accepted.
+<br>
+<br>
+     Legal: No one here at Lucifer's host have gotten nor obtained this information.
+     If it information that is publicly available or given to us.
+     We take no responsibility for anything that Is posted on the site.
+     If you want something removed, please contact us and we will remove it.
+     Everyone posted is over 18 years of age, and has done something deserving of this.
+     There is a strict policy on children, which are to be protected. Nothing 'illegal'
+     will be found on this site, and nothing belongs to us.
+<hr>
+     For support: y2k777@underworld.dog</p>
+</p>
+        </div>
+    </div>
+
+    <div id="requirementsPopup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="hidePopup('requirementsPopup')">&times;</span>
+            <h2>Requirements</h2>
+            <ul>
+                Only affiliated members can post -
+     If you want to join, you can do so by submitting an application.
+     You can send an email with your application to request affiliation.<br><br>
+     Please be sure to include your previous experience and your motive
+     to join us. Memberships cost $10USD and are selective.<br><br>
+     <li>You have knowledge in this area, and have done this before in some capacity.</li><br>
+     <li>Active online, deticated to taking down pedophiles, and capible with tech.</li><br>
+     <li>18+ Years of age, not easlily offended.</li><br>
+     <li>Understanfing of computers, linux, python, java (and js), docker and other basic tools.</li><br><br>
+
+     To signup, email: y2k777@underwold.dog
+            </ul>
+        </div>
+    </div>
+
+    <div id="postDetailsPopup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="hidePopup('postDetailsPopup')">&times;</span>
+            <h2 id="postPopupTitle"></h2>
+            <p id="postPopupAuthor"></p>
+            <p id="postPopupContent"></p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
