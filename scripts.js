@@ -3,40 +3,40 @@ let posts = [
     {
         id: 1,
         title: "EXAMPLE",
-        content: "EXAMPLE TEXT, POSTS COMING 1ST NOVEMBER 2024",
+        content: "EXAMPLE TEXT, POSTS COMING DEC 2024",
         author: "EXAMPLE"
     },
     {
         id: 2,
         title: "EXAMPLE",
-        content: "EXAMPLE TEXT, POSTS COMING 1ST NOVEMBER 2024",
+        content: "EXAMPLE TEXT, POSTS COMING DEC NOVEMBER 2024",
         author: "EXAMPLE"
     },
     {
 
         id: 3,
         title: "EXAMPLE",
-        content: "EXAMPLE TEXT, POSTS COMING 1ST NOVEMBER 2024",
+        content: "EXAMPLE TEXT, POSTS COMING DEC NOVEMBER 2024",
         author: "EXAMPLE"
    },
    {
         id: 4,
         title: "EXAMPLE",
-        content: "EXAMPLE TEXT, POSTS COMING 1ST NOVEMBER 2024",
+        content: "EXAMPLE TEXT, POSTS COMING DEC NOVEMBER 2024",
         author: "EXAMPLE"
 
     },
     {
         id: 5,
         title: "EXAMPLE",
-        content: "EXAMPLE TEXT, POSTS COMING 1ST NOVEMBER 2024",
+        content: "EXAMPLE TEXT, POSTS COMING DEC NOVEMBER 2024",
         author: "EXAMPLE"
 
     },
     {
         id: 6,
         title: "EXAMPLE",
-        content: "EXAMPLE TEXT, POSTS COMING 1ST NOVEMBER 2024",
+        content: "EXAMPLE TEXT, POSTS COMING DEC NOVEMBER 2024",
         author: "EXAMPLE"
     }
 ];
