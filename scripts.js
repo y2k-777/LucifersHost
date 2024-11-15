@@ -2,42 +2,9 @@
 let posts = [
     {
         id: 1,
-        title: "EXAMPLE",
-        content: "EXAMPLE TEXT, POSTS COMING DEC 2024",
-        author: "EXAMPLE"
-    },
-    {
-        id: 2,
-        title: "EXAMPLE",
-        content: "EXAMPLE TEXT, POSTS COMING DEC NOVEMBER 2024",
-        author: "EXAMPLE"
-    },
-    {
-
-        id: 3,
-        title: "EXAMPLE",
-        content: "EXAMPLE TEXT, POSTS COMING DEC NOVEMBER 2024",
-        author: "EXAMPLE"
-   },
-   {
-        id: 4,
-        title: "EXAMPLE",
-        content: "EXAMPLE TEXT, POSTS COMING DEC NOVEMBER 2024",
-        author: "EXAMPLE"
-
-    },
-    {
-        id: 5,
-        title: "EXAMPLE",
-        content: "EXAMPLE TEXT, POSTS COMING DEC NOVEMBER 2024",
-        author: "EXAMPLE"
-
-    },
-    {
-        id: 6,
-        title: "EXAMPLE",
-        content: "EXAMPLE TEXT, POSTS COMING DEC NOVEMBER 2024",
-        author: "EXAMPLE"
+        title: "HELLO JAMES - WE HACKED YOU! :)",
+        content: "WE HAVE ALL OF YOUR INFORMATION DO YOU WANT PROOF? WE WILL SHOW YOU!",
+        author: "SO MR James Leonard Lebla, June 16th 1990 - DO YOU WANT TO HAVE A CHAT? - DONT MAKE THIS HARD, WE HAVE A PRE-WRITTEN EMAIL TO THE LA PD, WOULD YOU LIKE TO SEE?",
     }
 ];
 
